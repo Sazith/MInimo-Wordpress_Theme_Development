@@ -1,0 +1,260 @@
+/*
+    font-family: PlayfairDisplay-Black;
+    font-family: PlayfairDisplay-Bold;
+    font-family: PlayfairDisplay-Regular;
+    font-family: Ubuntu-Light;
+*/
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.logo {
+    font-family: 'Ubuntu-Light';
+    font-size: 40px;
+    color: #000000;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.menu ul li a {
+    font-family: 'PlayfairDisplay-Regular';
+    font-size: 14px;
+    color: #626262;
+}
+
+.bannar_top {
+    margin-top: 3rem;
+}
+
+.bannar_img {
+    width: 100%;
+}
+
+.bannar_info {
+    margin-top: 5rem;
+}
+
+.common_highlight {
+    font-family: 'Ubuntu-Light';
+    font-size: 14px;
+    font-weight: 400;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.common_headline {
+    font-family: 'PlayfairDisplay-Regular';
+    font-size: 30px;
+    font-weight: 400;
+    color: #626262;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+
+.common_paragraph {
+    font-family: 'PlayfairDisplay-Regular';
+    font-size: 14px;
+    font-weight: 400;
+    color: #626262;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.bannar_leave {
+    padding-top: 2rem;
+}
+
+.card_custom {
+    border: none;
+
+}
+
+.card_custom img {
+    transition: box-shadow .2s cubic-bezier(.43, .07, .61, .95), transform .2s cubic-bezier(.43, .07, .61, .95);
+    will-change: transform;
+}
+
+.card_custom:hover img {
+    cursor: pointer;
+    box-shadow: 0 20px 40px rgb(61 65 84 / 15%);
+    transform: translateY(-3px);
+
+}
+
+.card_info {
+    margin-top: 5rem;
+}
+
+.footer_head {
+    margin-top: 5rem;
+    background-color: #f0f0f0;
+    padding: 5rem 0rem 6rem;
+}
+
+.footer_common ul li {
+    list-style: none;
+
+}
+
+.footer_common ul li a {
+    transition-duration: 5s;
+    transition-delay: 1s;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+
+.footer_common ul li a:hover {
+    color: rgb(46, 49, 49);
+}
+
+.zoom:hover {
+    transform: scale(1.3);
+}
+
+.footer_common ul {
+    padding: 0;
+}
+
+.footer_left ul li {
+    margin-right: 14px;
+}
+
+.footer_right ul li {
+    margin-left: 14px;
+}
+
+.footer_common ul li a {
+    font-family: 'PlayfairDisplay-Regular';
+    text-decoration: none;
+    color: rgb(101, 101, 101);
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.footer_right {
+    text-align: right;
+}
+
+.newletter {
+    margin-top: 5rem;
+    position: relative;
+    background-color: #f0f0f0;
+}
+
+.newletter_head {
+    font-family: 'PlayfairDisplay-Regular';
+    color: #333333;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.newsEmail {
+    text-align: center;
+    width: 30%;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    border: none;
+    border-bottom: 1px solid #b4ad9e;
+    border-radius: 0;
+    padding-right: 2.5rem;
+    background-color: #f0f0f0;
+}
+
+.newsEmail:focus {
+    color: none;
+    background-color: none;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none;
+    border-bottom: 1px solid #b4ad9e;
+}
+
+.newsEmail::placeholder {
+    font-family: 'PlayfairDisplay-Regular';
+    font-size: 14px;
+    color: #626262;
+    letter-spacing: 0.5px;
+
+}
+
+.send_icon::before {
+    position: absolute;
+    content: "\F6C0";
+    font-family: "Bootstrap-icons";
+    color: #848483;
+    top: 57%;
+    right: 36%;
+    transform: translate(-36%, -57%);
+}
+
+#emailHelp {
+    font-family: 'Ubuntu-Light';
+    padding-top: 10px;
+    text-align: center;
+    color: #b4ad9e;
+    letter-spacing: 1px;
+    padding-bottom: 5rem;
+}
+
+.more_btn {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.btn_load {
+    font-family: 'PlayfairDisplay-Regular';
+    font-size: 20px;
+    letter-spacing: 1px;
+    border: 1px solid #626262;
+    padding: 22px 34px;
+    transition: transform .2s cubic-bezier(.43, .07, .61, .95);
+    will-change: transform;
+}
+
+.btn_load:hover {
+    border: 1px solid #626262;
+    box-shadow: 0 20px 40px rgb(61 65 84 / 15%);
+    transform: translateY(-3px);
+}
+
+
+
+
+/************
+=================================
+Dynaic Menu start
+============================
+****************/
+
+.nav {
+    display: flex;
+}
+
+.nav li {
+    margin: 0px 40px;
+}
+
+.nav li:last-child {
+    margin-right: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    font-family: 'PlayfairDisplay-Regular';
+    font-size: 14px;
+    color: #626262;
+}
+
+
+/************
+=================================
+Dynaic Menu end
+============================
+****************/

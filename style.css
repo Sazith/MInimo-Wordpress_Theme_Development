@@ -1,0 +1,35 @@
+/*
+Theme Name: Minimo
+Theme URI: https://wordpress.org/themes/minimo
+Author: Sazith Shyonton
+Author URI: https://www.linkedin.com/in/sazith-shyonton-b66751279/
+Description:Explore. Dream. Discover. This is a world travel blog about beautiful destinations, with free tips & guides on how to travel the world!
+Requires at least: 6.1
+Tested up to: 6.3
+Requires PHP: 5.6
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+Text Domain: minimo
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
+*/
+
+@font-face {
+    font-family: PlayfairDisplay-Black;
+    src: url('./include/fonts/PlayfairDisplay-Black.ttf');
+}
+
+@font-face {
+    font-family: PlayfairDisplay-Bold;
+    src: url('./include/fonts/PlayfairDisplay-Bold.ttf');
+}
+
+@font-face {
+    font-family: PlayfairDisplay-Regular;
+    src: url('./include/fonts/PlayfairDisplay-Regular.ttf');
+}
+
+@font-face {
+    font-family: Ubuntu-Light;
+    src: url('./include/fonts/Ubuntu-Light.ttf');
+}
